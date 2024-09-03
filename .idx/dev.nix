@@ -6,8 +6,8 @@
 
   # Use https://search.nixos.org/packages to find packages
   packages = [
-
-  
+ pkgs.clang_17
+ pkgs.python312 
  pkgs.rustup];
 
   # Sets environment variables in the workspace
